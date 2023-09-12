@@ -31,7 +31,6 @@ function rollDice() {
   }
   
   function nextPlayer() {
-    // Switch to the next player
     activePlayer = activePlayer === 0 ? 1 : 0;
     roundScore = 0;
   
@@ -89,6 +88,6 @@ function rollDice() {
   // New game button event listener
   document.getElementById('new-game').addEventListener('click', init);
   
-  // Initialize the game
+
   init();
   
